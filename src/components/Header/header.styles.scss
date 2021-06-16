@@ -1,0 +1,46 @@
+.header {
+  background-color: #191919;
+  background-image: url('../../assets/home/desktop/image-hero.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 95vh;
+  color: #ffffff;
+  padding: 2rem 6rem;
+
+  .new-product {
+    width: 30vw;
+ 
+
+    h1,
+    h2 {
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 0.8rem;
+      color: #f1f1f1;
+      letter-spacing: 10px;
+    }
+
+    span {
+      text-transform: uppercase;
+      display: block;
+      font-weight: 700;
+      font-size: 4rem;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 25px;
+      letter-spacing: 1px;
+      color: #f1f1f1;
+    }
+  }
+
+  .headphone {
+    .header-headphone-img {
+      width: 100%;
+    }
+  }
+}
