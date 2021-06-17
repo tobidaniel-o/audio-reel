@@ -1,8 +1,15 @@
 import React from "react";
 import "./button.styles.scss";
 
-function Button() {
-  return <button className="btn">see product</button>;
+function Button({ backgroundColor, color, border }) {
+  return (
+    <button
+      className="btn"
+      style={{ backgroundColor: backgroundColor, color: color, border: border }}
+    >
+      see product
+    </button>
+  );
 }
 
 export default Button;

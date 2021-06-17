@@ -17,7 +17,7 @@ function Header() {
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
-          <Button />
+          <Button backgroundColor="#d87d4a" color="#ffffff" />
         </div>
       </div>
     </div>

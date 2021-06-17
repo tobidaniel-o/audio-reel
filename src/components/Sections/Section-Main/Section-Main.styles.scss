@@ -1,0 +1,54 @@
+.section-main-one {
+  display: flex;
+  background-color: #d87d4a;
+  justify-content: space-around;
+  padding: 4.5rem 0 0;
+  margin-bottom: 2rem;
+
+  .section-main-one-img-container {
+    width: 350px;
+
+    .section-main-one-img {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .product-details {
+    width: 36%;
+    p {
+      margin: 0;
+      color: #ffffff;
+    }
+
+    .title {
+      font-size: 3rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .details {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      letter-spacing: 1px;
+      line-height: 20px;
+    }
+  }
+}
+
+.section-main-two {
+  height: 35vh;
+  background-image: url("../../../assets/home/desktop/image-speaker-zx7.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3rem;
+  padding: 5rem 8rem;
+
+  p {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+  }
+}
