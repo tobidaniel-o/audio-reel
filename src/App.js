@@ -1,4 +1,4 @@
-import HomePage from "./homepage.component";
+import HomePage from "./HomePage/homepage.component";
 import "./setup.css"
 import "./App.scss";
 
