@@ -4,6 +4,7 @@
   justify-content: space-around;
   padding: 4.5rem 0 0;
   margin-bottom: 2rem;
+  border-radius: 5px;
 
   .section-main-one-img-container {
     width: 350px;
@@ -42,13 +43,43 @@
   background-image: url("../../../assets/home/desktop/image-speaker-zx7.jpg");
   background-position: center;
   background-size: cover;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   padding: 5rem 8rem;
+  border-radius: 5px;
 
   p {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 1.3rem;
+  }
+}
+
+.section-main-three {
+  display: flex;
+
+  .earphones-in-a-case {
+    width: 50%;
+    margin-right: 1rem;
+
+    img {
+      border-radius: 5px;
+      width: 100%;
+    }
+  }
+
+  .earphones-in-a-case-details {
+    width: 50%;
+    margin-left: 1px;
+    background-color: #fafafa;
+    padding: 6rem;
+    border-radius: 5px;
+
+    p {
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-size: 1.3rem;
+    }
   }
 }

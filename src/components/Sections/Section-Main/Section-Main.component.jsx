@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../Button/button.component";
-import "./Section-Main.styles.scss";
+import SectionShared from "./Section-Shared/section-shared.component";
+import "./section-main.styles.scss";
 
 function SectionMain() {
   return (
@@ -30,6 +31,25 @@ function SectionMain() {
         <p>zx7 speaker</p>
         <Button backgroundColor="inherit" border="1px solid #000000" />
       </section>
+
+      <section className="section-main-three">
+        <div className="earphones-in-a-case">
+          <img
+            src={
+              require("../../../assets/product-yx1-earphones/desktop/image-gallery-2.jpg")
+                .default
+            }
+            alt="A pair of black earphones in a case."
+          />
+        </div>
+
+        <div className="earphones-in-a-case-details">
+          <p>yx1 speaker</p>
+          <Button backgroundColor="inherit" border="1px solid #000000" />
+        </div>
+      </section>
+
+      <SectionShared />
     </main>
   );
 }
