@@ -1,0 +1,39 @@
+.section-shared {
+  display: flex;
+  justify-content: space-between;
+
+  .article-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35vw;
+
+    .article-container {
+      p {
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 1.5rem;
+        line-height: 30px;
+      }
+
+      span {
+        color: #d87d4a;
+      }
+    }
+  }
+
+  .article {
+    color: #b8b2b2;
+    line-height: 30px;
+  }
+
+  .article-image {
+    img {
+      display: block;
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+}
