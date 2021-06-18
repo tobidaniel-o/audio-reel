@@ -1,11 +1,13 @@
 import HomePage from "./HomePage/homepage.component";
-import "./setup.css"
+import HeadPhonesCategory from "./Categories/Headphones/headphones.component";
+import "./setup.css";
 import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      {/* <HomePage /> */}
+      <HeadPhonesCategory />
     </div>
   );
 }
