@@ -1,5 +1,9 @@
 import React from "react";
+import Footer from "../../components/Footer/footer.component";
 import Navigation from "../../components/Navigation/navigation.component";
+import SectionShared from "../../components/Sections/Section-Main/Section-Shared/section-shared.component";
+import SectionMiniDetails from "../../components/Sections/Section-Mini-Details/section-mini-details.component";
+import SectionFour from "../components/SectionFour/section-four-component";
 import SectionOne from "../components/SectionOne/section-one-component";
 import SectionThree from "../components/SectionThree/section-three-component";
 import SectionTwo from "../components/SectionTwo/section-two-component";
@@ -70,7 +74,30 @@ function HeadPhones1() {
           }
           altThree="A black headphone."
         />
+        <SectionFour
+          firstImg={
+            require("../../assets/product-xx99-mark-one-headphones/desktop/image-product.jpg")
+              .default
+          }
+          secondImg={
+            require("../../assets/product-xx59-headphones/desktop/image-product.jpg")
+              .default
+          }
+          thirdImg={
+            require("../../assets/product-zx9-speaker/desktop/image-product.jpg")
+              .default
+          }
+          altOne="A XX99 Mark 1 headphone"
+          altTwo="A XX59 headphone"
+          altThree="A ZX9 Speaker "
+          itemBrandOne="xx99 mark i"
+          itemBrandTwo="xx59"
+          itemBrandThree="zx9 speaker"
+        />
+        <SectionMiniDetails />
+        <SectionShared />
       </div>
+      <Footer />
     </>
   );
 }
