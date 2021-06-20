@@ -10,7 +10,7 @@ import SectionTwo from "../components/SectionTwo/section-two-component";
 
 import "../components/components-header.styles.scss";
 
-function HeadPhones1() {
+function HeadPhones3() {
   return (
     <>
       <div className="components-header">
@@ -21,31 +21,19 @@ function HeadPhones1() {
       <div className="wrapper">
         <SectionOne
           src={
-            require("../../assets/product-xx99-mark-two-headphones/desktop/image-product.jpg")
+            require("../../assets/product-xx59-headphones/desktop/image-product.jpg")
               .default
           }
-          alt="a black xx99 mark ii headphones"
-          heading="new product"
-          itemBrand="xx99 mark ii"
+          alt="A XX59 headphones"
+          itemBrand="xx59"
           typeOfItem="headphones"
-          aboutProduct="The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound."
-          price="$2,999"
+          aboutProduct="Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move."
+          price="$899"
           numberOfItem="1"
         />
         <SectionTwo
-          firstFeature="Featuring a genuine leather head strap and premium earcups, these
-            headphones deliver superior comfort for those who like to enjoy
-            endless listening. It includes intuitive controls designed for any
-            situation. Whether you’re taking a business call or just in your own
-            personal space, the auto on/off and pause features ensure that
-            you’ll never miss a beat."
-          secondFeature="The advanced Active Noise Cancellation with built-in equalizer allow
-            you to experience your audio world on your terms. It lets you enjoy
-            your audio in peace, but quickly interact with your surroundings
-            when you need to. Combined with Bluetooth 5. 0 compliant
-            connectivity and 17 hour battery life, the XX99 Mark II headphones
-            gives you superior sound, cutting-edge technology, and a modern
-            design aesthetic. "
+          firstFeature="These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its compact folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission is assured by the latest wireless technology engineered for audio synchronization with videos."
+          secondFeature="More than a simple pair of headphones, this headset features a pair of built-in microphones for clear, hands-free calling when paired with a compatible smartphone. Controlling music and calls is also intuitive thanks to easy-access touch buttons on the earcups. Regardless of how you use the XX59 headphones, you can do so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C."
           firstNumberOfUnits="1x"
           firstUnitType="Headphone Unit"
           secondNumberOfUnits="2x"
@@ -54,44 +42,42 @@ function HeadPhones1() {
           thirdUnitType="User Manual"
           fourthNumberOfUnits="1x"
           fourthUnitType="3.5mm 5m Audio Cable"
-          fifthNumberOfUnits="1x"
-          fifthUnitType="Travel Bag"
         />
         <SectionThree
           imageSrcOne={
-            require("../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg")
+            require("../../assets/product-xx59-headphones/desktop/image-gallery-1.jpg")
               .default
           }
           altOne="A guy holding a pair of headphones on his head."
           imageSrcTwo={
-            require("../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg")
+            require("../../assets/product-xx59-headphones/desktop/image-gallery-2.jpg")
               .default
           }
           altTwo="A black headphones and a phone on a table."
           imageSrcThree={
-            require("../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg")
+            require("../../assets/product-xx59-headphones/desktop/image-gallery-3.jpg")
               .default
           }
           altThree="A black headphone."
         />
         <SectionFour
           firstImg={
-            require("../../assets/product-xx99-mark-one-headphones/desktop/image-product.jpg")
+            require("../../assets/product-xx99-mark-two-headphones/desktop/image-product.jpg")
               .default
           }
           secondImg={
-            require("../../assets/product-xx59-headphones/desktop/image-product.jpg")
+            require("../../assets/product-xx99-mark-one-headphones/desktop/image-product.jpg")
               .default
           }
           thirdImg={
             require("../../assets/product-zx9-speaker/desktop/image-product.jpg")
               .default
           }
-          altOne="A XX99 Mark 1 headphone"
-          altTwo="A XX59 headphone"
+          altOne="A XX99 Mark II headphone"
+          altTwo="A XX99 Mark I headphone"
           altThree="A ZX9 Speaker "
-          itemBrandOne="xx99 mark i"
-          itemBrandTwo="xx59"
+          itemBrandOne="xx99 mark ii"
+          itemBrandTwo="xx99 mark i"
           itemBrandThree="zx9 speaker"
         />
         <SectionMiniDetails />
@@ -102,4 +88,4 @@ function HeadPhones1() {
   );
 }
 
-export default HeadPhones1;
+export default HeadPhones3;

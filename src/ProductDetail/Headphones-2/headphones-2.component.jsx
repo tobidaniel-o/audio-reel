@@ -10,7 +10,7 @@ import SectionTwo from "../components/SectionTwo/section-two-component";
 
 import "../components/components-header.styles.scss";
 
-function HeadPhones1() {
+function HeadPhones2() {
   return (
     <>
       <div className="components-header">
@@ -21,31 +21,29 @@ function HeadPhones1() {
       <div className="wrapper">
         <SectionOne
           src={
-            require("../../assets/product-xx99-mark-two-headphones/desktop/image-product.jpg")
+            require("../../assets/product-xx99-mark-one-headphones/desktop/image-product.jpg")
               .default
           }
           alt="a black xx99 mark ii headphones"
-          heading="new product"
-          itemBrand="xx99 mark ii"
+          itemBrand="xx99 mark i"
           typeOfItem="headphones"
-          aboutProduct="The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound."
-          price="$2,999"
+          aboutProduct="As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go."
+          price="$1,750"
           numberOfItem="1"
         />
+
         <SectionTwo
-          firstFeature="Featuring a genuine leather head strap and premium earcups, these
-            headphones deliver superior comfort for those who like to enjoy
-            endless listening. It includes intuitive controls designed for any
-            situation. Whether you’re taking a business call or just in your own
-            personal space, the auto on/off and pause features ensure that
-            you’ll never miss a beat."
-          secondFeature="The advanced Active Noise Cancellation with built-in equalizer allow
-            you to experience your audio world on your terms. It lets you enjoy
-            your audio in peace, but quickly interact with your surroundings
-            when you need to. Combined with Bluetooth 5. 0 compliant
-            connectivity and 17 hour battery life, the XX99 Mark II headphones
-            gives you superior sound, cutting-edge technology, and a modern
-            design aesthetic. "
+          firstFeature="  As the headphones all others are measured against, the XX99 Mark I
+        demonstrates over five decades of audio expertise, redefining the
+        critical listening experience. This pair of closed-back headphones are
+        made of industrial, aerospace-grade materials to emphasize durability at
+        a relatively light weight of 11 oz. "
+          secondFeature="From the handcrafted microfiber ear cushions to the robust metal
+        headband with inner damping element, the components work together to
+        deliver comfort and uncompromising sound. Its closed-back design
+        delivers up to 27 dB of passive noise cancellation, reducing resonance
+        by reflecting sound to a dedicated absorber. For connectivity, a
+        specially tuned cable is included with a balanced gold connector."
           firstNumberOfUnits="1x"
           firstUnitType="Headphone Unit"
           secondNumberOfUnits="2x"
@@ -54,29 +52,27 @@ function HeadPhones1() {
           thirdUnitType="User Manual"
           fourthNumberOfUnits="1x"
           fourthUnitType="3.5mm 5m Audio Cable"
-          fifthNumberOfUnits="1x"
-          fifthUnitType="Travel Bag"
         />
         <SectionThree
           imageSrcOne={
-            require("../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg")
+            require("../../assets/product-xx99-mark-one-headphones/desktop/image-gallery-1.jpg")
               .default
           }
           altOne="A guy holding a pair of headphones on his head."
           imageSrcTwo={
-            require("../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg")
+            require("../../assets/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg")
               .default
           }
           altTwo="A black headphones and a phone on a table."
           imageSrcThree={
-            require("../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg")
+            require("../../assets/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg")
               .default
           }
           altThree="A black headphone."
         />
         <SectionFour
           firstImg={
-            require("../../assets/product-xx99-mark-one-headphones/desktop/image-product.jpg")
+            require("../../assets/product-xx99-mark-two-headphones/desktop/image-product.jpg")
               .default
           }
           secondImg={
@@ -102,4 +98,4 @@ function HeadPhones1() {
   );
 }
 
-export default HeadPhones1;
+export default HeadPhones2;
