@@ -26,7 +26,7 @@ function ItemAndDetails({
             </div>
 
             <p className="article">{aboutProduct}</p>
-            <Button backgroundColor="#d87d4a" color="#ffffff" />
+            <Button backgroundColor="#d87d4a" color="#ffffff" buttonType="see product"/>
           </article>
         </div>
       </div>

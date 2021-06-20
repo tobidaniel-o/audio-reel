@@ -45,7 +45,7 @@ function SectionMain() {
 
         <div className="earphones-in-a-case-details">
           <p>yx1 speaker</p>
-          <Button backgroundColor="inherit" border="1px solid #000000" />
+          <Button backgroundColor="inherit" border="1px solid #000000" buttonType="see product"/>
         </div>
       </section>
 
