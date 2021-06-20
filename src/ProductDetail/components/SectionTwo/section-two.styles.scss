@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  margin-top: 6rem;
+  justify-content: space-between;
+
+  .article {
+    width: 55%;
+    p {
+      font-size: 0.9rem;
+      line-height: 25px;
+      color: #b8b2b2;
+    }
+  }
+
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+  }
+
+  .aside {
+    width: 35%;
+    text-align: left;
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      color: #b8b2b2;
+      font-size: 0.9rem;
+
+      li {
+        margin-left: 0;
+        line-height: 25px;
+
+        span {
+          margin-right: 2rem;
+          color: #d87d4a;
+        }
+      }
+    }
+  }
+}
