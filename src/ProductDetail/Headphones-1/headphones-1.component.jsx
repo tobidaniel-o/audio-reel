@@ -26,6 +26,7 @@ function HeadPhones1() {
           price="$2,999"
           numberOfItem="1"
         />
+        
       </div>
     </>
   );
