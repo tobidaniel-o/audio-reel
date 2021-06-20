@@ -8,10 +8,10 @@ import Earphones from "./Categories/Earphones/earphones.component";
 function App() {
   return (
     <div className="App">
-      {/* <HomePage />
-      <HeadPhonesCategory />
-      <Speakers /> */}
-      <Earphones />
+      <HomePage />
+      {/* <HeadPhonesCategory /> */}
+      {/* <Speakers /> */}
+      {/* <Earphones /> */}
     </div>
   );
 }
