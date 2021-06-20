@@ -1,0 +1,18 @@
+.images-container {
+  display: flex;
+  margin-top: 7rem;
+
+  img {
+    border-radius: 5px;
+  }
+
+  .two-images-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .image-three {
+    margin-left: 4rem;
+  }
+}

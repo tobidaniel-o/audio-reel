@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../../components/Navigation/navigation.component";
 import SectionOne from "../components/SectionOne/section-one-component";
+import SectionThree from "../components/SectionThree/section-three-component";
 import SectionTwo from "../components/SectionTwo/section-two-component";
 
 import "./headphones-1.styles.scss";
@@ -51,6 +52,23 @@ function HeadPhones1() {
           fourthUnitType="3.5mm 5m Audio Cable"
           fifthNumberOfUnits="1x"
           fifthUnitType="Travel Bag"
+        />
+        <SectionThree
+          imageSrcOne={
+            require("../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg")
+              .default
+          }
+          altOne="A guy holding a pair of headphones on his head."
+          imageSrcTwo={
+            require("../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg")
+              .default
+          }
+          altTwo="A black headphones and a phone on a table."
+          imageSrcThree={
+            require("../../assets/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg")
+              .default
+          }
+          altThree="A black headphone."
         />
       </div>
     </>
