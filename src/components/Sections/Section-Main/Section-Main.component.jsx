@@ -24,12 +24,20 @@ function SectionMain() {
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
-          <Button color="#ffffff" backgroundColor="#000000" />
+          <Button
+            color="#ffffff"
+            backgroundColor="#000000"
+            buttonType="see product"
+          />
         </div>
       </section>
       <section className="section-main-two">
         <p>zx7 speaker</p>
-        <Button backgroundColor="inherit" border="1px solid #000000" />
+        <Button
+          backgroundColor="inherit"
+          border="1px solid #000000"
+          buttonType="see product"
+        />
       </section>
 
       <section className="section-main-three">
@@ -45,7 +53,11 @@ function SectionMain() {
 
         <div className="earphones-in-a-case-details">
           <p>yx1 speaker</p>
-          <Button backgroundColor="inherit" border="1px solid #000000" buttonType="see product"/>
+          <Button
+            backgroundColor="inherit"
+            border="1px solid #000000"
+            buttonType="see product"
+          />
         </div>
       </section>
 
