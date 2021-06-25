@@ -14,7 +14,7 @@ import EarPhones1 from "./ProductDetail/Earphones-1/earphones-1.component";
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      {/* <HomePage /> */}
       {/* <HeadPhonesCategory /> */}
       {/* <Speakers /> */}
       {/* <Earphones /> */}
