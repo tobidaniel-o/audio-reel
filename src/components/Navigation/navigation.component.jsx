@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./navigation.styles.scss";
 
 function Navigation() {
@@ -6,11 +7,31 @@ function Navigation() {
     <nav className="navigation">
       <span className="logo">audioreel</span>
       <ul>
-        <li>home</li>
-        <li>headphones</li>
-        <li>speakers</li>
-        <li>earphones</li>
-        <li>sign in</li>
+        <li>
+          <Link to="/" className="link">
+            home
+          </Link>
+        </li>
+        <li>
+          <Link to="/headphones-category" className="link">
+            headphones
+          </Link>
+        </li>
+        <li>
+          <Link to="/speakers" className="link">
+            speakers
+          </Link>
+        </li>
+        <li>
+          <Link to="/earphones" className="link">
+            earphones
+          </Link>
+        </li>
+        <li>
+          <Link to="signin" className="link">
+            sign in
+          </Link>
+        </li>
       </ul>
       <img
         className="cart"

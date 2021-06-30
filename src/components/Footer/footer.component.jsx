@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./footer.styles.scss";
 
 function Footer() {
@@ -8,11 +10,31 @@ function Footer() {
         <div className="footer-navigation">
           <span className="logo">audioreel</span>
           <ul>
-            <li>home</li>
-            <li>headphones</li>
-            <li>speakers</li>
-            <li>earphones</li>
-            <li>sign in</li>
+            <li>
+              <Link to="/" className="link">
+                home
+              </Link>
+            </li>
+            <li>
+              <Link to="/headphones-category" className="link">
+                headphones
+              </Link>
+            </li>
+            <li>
+              <Link to="/speakers" className="link">
+                speakers
+              </Link>
+            </li>
+            <li>
+              <Link to="/earphones" className="link">
+                earphones
+              </Link>
+            </li>
+            <li>
+              <Link to="signin" className="link">
+                sign in
+              </Link>
+            </li>
           </ul>
         </div>
 
