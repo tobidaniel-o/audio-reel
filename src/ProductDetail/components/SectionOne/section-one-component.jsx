@@ -1,5 +1,5 @@
 import React from "react";
-import Button from '../../../components/Button/button.component'
+import Button from "../../../components/Button/button.component";
 import "./section-one.styles.scss";
 
 function SectionOne({
@@ -36,11 +36,6 @@ function SectionOne({
                 <span>{numberOfItem}</span>
                 <span className="increment">+</span>
               </div>
-              {/* <Button
-                backgroundColor="#d87d4a"
-                color="#ffffff"
-                buttonType="add to cart"
-              /> */}
 
               <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
                 add to cart
