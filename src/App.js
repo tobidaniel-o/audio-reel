@@ -10,6 +10,7 @@ import HeadPhones2 from "./ProductDetail/Headphones-2/headphones-2.component";
 import Speaker1 from "./ProductDetail/Speakers-1/speakers-1.component";
 import Speaker2 from "./ProductDetail/Speakers-2/speaker-2.component";
 import EarPhones1 from "./ProductDetail/Earphones-1/earphones-1.component";
+import SignInSignUpPage from "./SignInSignUpPage/sign-in-sign-up-page.component";
 
 import "./setup.css";
 import "./App.scss";
@@ -28,6 +29,7 @@ function App() {
         <Route path="/speaker-1" component={Speaker1} />
         <Route path="/speaker-2" component={Speaker2} />
         <Route path="/earphones-1" component={EarPhones1} />
+        <Route path="/signin" component={SignInSignUpPage} />
       </Switch>
     </div>
   );

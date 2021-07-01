@@ -5,7 +5,11 @@ import "./navigation.styles.scss";
 function Navigation() {
   return (
     <nav className="navigation">
-      <span className="logo">audioreel</span>
+      <span className="logo">
+        <Link to="/" className="link">
+          audioreel
+        </Link>
+      </span>
       <ul>
         <li>
           <Link to="/" className="link">

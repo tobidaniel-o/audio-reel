@@ -30,20 +30,28 @@ function SectionFour({
           <li>
             <img src={secondImg} alt={altTwo} />
             <h3>{itemBrandTwo}</h3>
-            <Button
+            {/* <Button
               backgroundColor="#d87d4a"
               color="#ffffff"
               buttonType="see product"
-            />
+            /> */}
+
+            <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
+              see product
+            </Button>
           </li>
           <li>
             <img src={thirdImg} alt={altThree} />
             <h3>{itemBrandThree}</h3>
-            <Button
+            {/* <Button
               backgroundColor="#d87d4a"
               color="#ffffff"
               buttonType="see product"
-            />
+            /> */}
+
+            <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
+              see product
+            </Button>
           </li>
         </ul>
       </div>

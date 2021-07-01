@@ -26,7 +26,10 @@ function ItemAndDetails({
             </div>
 
             <p className="article">{aboutProduct}</p>
-            <Button backgroundColor="#d87d4a" color="#ffffff" buttonType="see product"/>
+            {/* <Button backgroundColor="#d87d4a" color="#ffffff" buttonType="see product"/> */}
+            <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
+              see product
+            </Button>
           </article>
         </div>
       </div>

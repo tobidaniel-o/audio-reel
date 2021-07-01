@@ -17,7 +17,17 @@ function Header() {
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
-          <Button backgroundColor="#d87d4a" color="#ffffff" buttonType="see product"/>
+          {/* <Button
+            backgroundColor="#d87d4a"
+            color="#ffffff"
+            buttonType="see product"
+          /> */}
+          <Button
+            style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}
+            type="Submit"
+          >
+            see product
+          </Button>
         </div>
       </div>
     </div>

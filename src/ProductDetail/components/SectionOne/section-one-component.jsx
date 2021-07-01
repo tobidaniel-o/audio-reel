@@ -36,11 +36,15 @@ function SectionOne({
                 <span>{numberOfItem}</span>
                 <span className="increment">+</span>
               </div>
-              <Button
+              {/* <Button
                 backgroundColor="#d87d4a"
                 color="#ffffff"
                 buttonType="add to cart"
-              />
+              /> */}
+
+              <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
+                add to cart
+              </Button>
             </div>
           </article>
         </div>
