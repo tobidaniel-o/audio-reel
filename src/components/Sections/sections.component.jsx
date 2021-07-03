@@ -7,7 +7,7 @@ function Sections() {
   return (
     <div className="wrapper">
       <SectionMiniDetails />
-      {/* <SectionMain /> */}
+      <SectionMain />
     </div>
   );
 }

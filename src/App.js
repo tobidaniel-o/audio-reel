@@ -15,13 +15,9 @@ import SignInSignUpPage from "./SignInSignUpPage/sign-in-sign-up-page.component"
 import "./setup.css";
 import "./App.scss";
 
-class App extends React.Component {
-  constructor() {
-    super();
-  }
 
-  render() {
-    return (
+function App() {
+  return (
       <div className="App">
         <Switch>
           <Route exact path="/" component={HomePage} />
@@ -38,9 +34,37 @@ class App extends React.Component {
         </Switch>
       </div>
     );
-  }
 }
 
-export default App;
+export default App
+
+
+// class App extends React.Component {
+//   constructor() {
+//     super();
+//   }
+
+//   render() {
+//     return (
+//       <div className="App">
+//         <Switch>
+//           <Route exact path="/" component={HomePage} />
+//           <Route path="/headphones-category" component={HeadPhonesCategory} />
+//           <Route path="/speakers" component={Speakers} />
+//           <Route path="/earphones" component={Earphones} />
+//           <Route path="/headphones-1" component={HeadPhones1} />
+//           <Route path="/headphones-2" component={HeadPhones2} />
+//           <Route path="/headphones-3" component={HeadPhones3} />
+//           <Route path="/speaker-1" component={Speaker1} />
+//           <Route path="/speaker-2" component={Speaker2} />
+//           <Route path="/earphones-1" component={EarPhones1} />
+//           <Route path="/signin" component={SignInSignUpPage} />
+//         </Switch>
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
 
 // <button onClick={() => props.history.push('/topics)}>Topics</button>

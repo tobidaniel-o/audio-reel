@@ -12,7 +12,7 @@ function SectionMiniDetails() {
               require("../../../assets/shared/desktop/image-headphones.png")
                 .default
             }
-            alt="image of an headphone"
+            alt="a headphone"
           />
         </div>
         <div className="item-shop">
@@ -38,7 +38,7 @@ function SectionMiniDetails() {
               require("../../../assets/shared/desktop/image-speakers.png")
                 .default
             }
-            alt=""
+            alt="speakers"
           />
         </div>
         <div className="item-shop">
@@ -64,7 +64,7 @@ function SectionMiniDetails() {
               require("../../../assets/shared/desktop/image-earphones.png")
                 .default
             }
-            alt=""
+            alt="earphones"
           />
         </div>
         <div className="item-shop">

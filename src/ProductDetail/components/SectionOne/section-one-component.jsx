@@ -17,7 +17,7 @@ function SectionOne({
       <div className="item-and-article-section">
         <div className="section-positioning">
           <div className="left-side">
-            <a href="">Go Back</a>
+            <a href="https://something.ca">Go Back</a>
             <div className="item-image-container">
               <img src={src} alt={alt} />
             </div>
