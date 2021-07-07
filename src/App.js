@@ -1,6 +1,5 @@
 import React from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
-import {setCurrentUser} from "./redux/user/user.actions"
+import { Switch, Route} from "react-router-dom";
 
 import HomePage from "./HomePage/homepage.component";
 import HeadPhonesCategory from "./Categories/Headphones/headphones.component";
@@ -17,7 +16,6 @@ import SignInSignUpPage from "./SignInSignUpPage/sign-in-sign-up-page.component"
 import "./setup.css";
 import "./App.scss";
 
-
 function App() {
   return (
     <div className="App">
@@ -33,22 +31,10 @@ function App() {
         <Route path="/speaker-2" component={Speaker2} />
         <Route path="/earphones-1" component={EarPhones1} />
         <Route path="/signin" component={SignInSignUpPage} />
-        {/* <Route
-          exact
-          path="/signin"
-          render={() =>
-            this.props.currentUser ? (
-              <Redirect to="/" />
-            ) : (
-              <SignInSignUpPage />
-            )
-          }
-        /> */}
+        
       </Switch>
     </div>
   );
 }
 
-export default App
-
-
+export default App;

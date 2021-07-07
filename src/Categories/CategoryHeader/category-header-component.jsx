@@ -1,7 +1,6 @@
 import React from "react";
 import Navigation from "../../components/Navigation/navigation.component";
 import { connect } from "react-redux";
-import { Redirect } from "react-router-dom";
 
 import { auth, createUserProfileDocument } from "../../firebase/firebase.utils";
 import { setCurrentUser } from "../../redux/user/user.actions";
@@ -54,4 +53,4 @@ const mapDispatchToProps = (dispatch) => ({
   setCurrentUser: (user) => dispatch(setCurrentUser(user)),
 });
 
-export default connect(null, mapDispatchToProps)(CategoryHeader);
+export default connect(mapStateToProps, mapDispatchToProps)(CategoryHeader);
