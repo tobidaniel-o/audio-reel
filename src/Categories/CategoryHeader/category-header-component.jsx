@@ -1,20 +1,13 @@
 import React from "react";
 import Navigation from "../../components/Navigation/navigation.component";
 import { connect } from "react-redux";
+import { Redirect } from "react-router-dom";
 
 import { auth, createUserProfileDocument } from "../../firebase/firebase.utils";
 import { setCurrentUser } from "../../redux/user/user.actions";
 import "./category-header.styles.scss";
 
 class CategoryHeader extends React.Component {
-  // constructor(props) {
-  //   super(props);
-
-  //   this.state = {
-  //     currentUser: null,
-  //   };
-  // }
-
   unsubscribeFromAuth = null;
 
   componentDidMount() {
@@ -24,20 +17,6 @@ class CategoryHeader extends React.Component {
       if (userAuth) {
         const userRef = await createUserProfileDocument(userAuth);
 
-        // userRef.onSnapshot((snapShot) => {
-        //   this.setState(
-        //     {
-        //       currentUser: {
-        //         id: snapShot.id,
-        //         ...snapShot.data(),
-        //       },
-        //     },
-        //     () => {
-        //       console.log(this.state);
-        //     }
-        //   );
-        // });
-
         userRef.onSnapshot((snapShot) => {
           setCurrentUser({
             id: snapShot.id,
@@ -45,7 +24,7 @@ class CategoryHeader extends React.Component {
           });
         });
       }
-      setCurrentUser(userAuth );
+      setCurrentUser(userAuth);
     });
   }
 
@@ -66,6 +45,10 @@ class CategoryHeader extends React.Component {
     );
   }
 }
+
+const mapStateToProps = ({ user }) => ({
+  currentUser: user.currentUser,
+});
 
 const mapDispatchToProps = (dispatch) => ({
   setCurrentUser: (user) => dispatch(setCurrentUser(user)),
