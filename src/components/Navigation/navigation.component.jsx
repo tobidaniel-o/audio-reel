@@ -45,7 +45,6 @@ function Navigation({ currentUser }) {
             </Link>
           )}
         </li>
-       
       </ul>
       <img
         className="cart"

@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route} from "react-router-dom";
+import CategoryHeader from "./Categories/CategoryHeader/category-header-component"
 
 import HomePage from "./HomePage/homepage.component";
 import HeadPhonesCategory from "./Categories/Headphones/headphones.component";
@@ -12,6 +13,7 @@ import Speaker1 from "./ProductDetail/Speakers-1/speakers-1.component";
 import Speaker2 from "./ProductDetail/Speakers-2/speaker-2.component";
 import EarPhones1 from "./ProductDetail/Earphones-1/earphones-1.component";
 import SignInSignUpPage from "./SignInSignUpPage/sign-in-sign-up-page.component";
+import Navigation from "./components/Navigation/navigation.component"
 
 import "./setup.css";
 import "./App.scss";
@@ -19,7 +21,8 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <Switch>
+      <CategoryHeader />
+      {/* <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/headphones-category" component={HeadPhonesCategory} />
         <Route path="/speakers" component={Speakers} />
@@ -32,7 +35,7 @@ function App() {
         <Route path="/earphones-1" component={EarPhones1} />
         <Route path="/signin" component={SignInSignUpPage} />
         
-      </Switch>
+      </Switch> */}
     </div>
   );
 }
