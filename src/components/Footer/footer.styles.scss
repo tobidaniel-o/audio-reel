@@ -1,47 +1,10 @@
 .footer {
   background-color: #101010;
-  padding: 4rem 0;
+  padding: 2rem 0;
   margin-top: 10rem;
 
   .footer-navigation {
-    display: flex;
-    justify-content: space-between;
-    color: #ffffff;
-
-    .link {
-      color: #ffffff;
-      text-decoration: none;
-    }
-
-    .logo {
-      display: block;
-      text-transform: lowercase;
-      font-size: 2rem;
-      letter-spacing: 1px;
-      font-weight: 600;
-      font-family: "Teko", sans-serif;
-      cursor: pointer;
-    }
-
-    ul {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      text-transform: uppercase;
-      color: #ffffff;
-      letter-spacing: 2px;
-      font-size: 0.8rem;
-      font-weight: bold;
-      list-style-type: none;
-
-      li {
-        cursor: pointer;
-      }
-
-      li:not(:last-child) {
-        margin-right: 1.5rem;
-      }
-    }
+    border-bottom: 0;
   }
 
   .about-and-social-icons {

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navigation from "../Navigation/navigation.component";
 
 import "./footer.styles.scss";
 
@@ -7,37 +8,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="wrapper">
-        <div className="footer-navigation">
-          <span className="logo">audioreel</span>
-          <ul>
-            <li>
-              <Link to="/" className="link">
-                home
-              </Link>
-            </li>
-            <li>
-              <Link to="/headphones-category" className="link">
-                headphones
-              </Link>
-            </li>
-            <li>
-              <Link to="/speakers" className="link">
-                speakers
-              </Link>
-            </li>
-            <li>
-              <Link to="/earphones" className="link">
-                earphones
-              </Link>
-            </li>
-            <li>
-              <Link to="signin" className="link">
-                sign in
-              </Link>
-            </li>
-          </ul>
-        </div>
-
+        <Navigation />
         <div className="about-and-social-icons">
           <div className="about-and-social-icons-container">
             <p className="about">
