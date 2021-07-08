@@ -23,6 +23,7 @@ class SignIn extends Component {
       this.setState({ email: "", password: "" });
     } catch (error) {
       console.log(error);
+      alert("Hey, buddy! Something is wrong");
     }
   };
 
