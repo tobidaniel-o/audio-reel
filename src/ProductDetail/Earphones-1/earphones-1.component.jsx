@@ -31,6 +31,7 @@ function EarPhones1() {
           aboutProduct="Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature."
           price="$599"
           numberOfItem="1"
+          productsLink="/earphones"
         />
         <SectionTwo
           firstFeature="Experience unrivalled stereo sound thanks to innovative acoustic technology. With improved ergonomics designed for full day wearing, these revolutionary earphones have been finely crafted to provide you with the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and truly immersive sound."
@@ -82,6 +83,9 @@ function EarPhones1() {
           itemBrandThree="zx7 speaker"
           itemBrandOne="xx99 mark i"
           itemBrandTwo="xx59"
+          productDetailsOne="/headphones-1"
+          productDetailsTwo="/headphones-3"
+          productDetailsThree="/speaker-2"
         />
         <SectionMiniDetails />
         <SectionShared />

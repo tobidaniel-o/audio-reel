@@ -31,6 +31,7 @@ function Speaker1() {
            aboutProduct="Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups."
            price="$4,500"
            numberOfItem="1"
+           productsLink="/speakers"
          />
          <SectionTwo
            firstFeature="Connect via Bluetooth or nearly any wired source. This speaker features optical, digital coaxial, USB Type-B, stereo RCA, and stereo XLR inputs, allowing you to have up to five wired source devices connected for easy switching. Improved bluetooth technology offers near lossless audio quality at up to 328ft (100m)."
@@ -82,6 +83,9 @@ function Speaker1() {
            itemBrandOne="zx7 speaker"
            itemBrandTwo="xx99 mark i"
            itemBrandThree="xx59"
+           productDetailsOne="/speaker-2"
+           productDetailsTwo="/headphones-1"
+           productDetailsThree="/headphones-3"
          />
          <SectionMiniDetails />
          <SectionShared />

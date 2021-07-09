@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../../components/Button/button.component";
+import { Link } from "react-router-dom";
 import "./section-four.styles.scss";
 
 function SectionFour({
@@ -12,6 +13,9 @@ function SectionFour({
   itemBrandOne,
   itemBrandTwo,
   itemBrandThree,
+  productDetailsOne,
+  productDetailsTwo,
+  productDetailsThree,
 }) {
   return (
     <>
@@ -21,37 +25,31 @@ function SectionFour({
           <li>
             <img src={firstImg} alt={altOne} />
             <h3>{itemBrandOne}</h3>
-            <Button
-              backgroundColor="#d87d4a"
-              color="#ffffff"
-              buttonType="see product"
-            />
+            <Link to={productDetailsOne}>
+              <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
+                see product
+              </Button>
+            </Link>
           </li>
           <li>
             <img src={secondImg} alt={altTwo} />
             <h3>{itemBrandTwo}</h3>
-            {/* <Button
-              backgroundColor="#d87d4a"
-              color="#ffffff"
-              buttonType="see product"
-            /> */}
 
-            <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
-              see product
-            </Button>
+            <Link to={productDetailsTwo}>
+              <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
+                see product
+              </Button>
+            </Link>
           </li>
           <li>
             <img src={thirdImg} alt={altThree} />
             <h3>{itemBrandThree}</h3>
-            {/* <Button
-              backgroundColor="#d87d4a"
-              color="#ffffff"
-              buttonType="see product"
-            /> */}
 
-            <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
-              see product
-            </Button>
+            <Link to={productDetailsThree}>
+              <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
+                see product
+              </Button>
+            </Link>
           </li>
         </ul>
       </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "../../../components/Button/button.component";
+import { Link } from "react-router-dom";
+
 import "./section-one.styles.scss";
 
 function SectionOne({
@@ -11,13 +13,17 @@ function SectionOne({
   aboutProduct,
   price,
   numberOfItem,
+  productsLink
 }) {
   return (
     <>
       <div className="item-and-article-section">
         <div className="section-positioning">
           <div className="left-side">
-            <a href="https://something.ca">Go Back</a>
+            {/* <a href="https://something.ca">Go Back</a> */}
+            {/* <Link to="/headphones-2">Go Back</Link> */}
+            <Link to={productsLink}>Go Back</Link>
+
             <div className="item-image-container">
               <img src={src} alt={alt} />
             </div>

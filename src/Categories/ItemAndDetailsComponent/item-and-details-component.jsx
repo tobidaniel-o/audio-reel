@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../components/Button/button.component";
+import {Link} from 'react-router-dom'
 import "./item-and-details.styles.scss";
 
 function ItemAndDetails({
@@ -10,6 +11,7 @@ function ItemAndDetails({
   typeOfItem,
   aboutProduct,
   itemAndDetailsPositioning,
+  productLink
 }) {
   return (
     <section className="item-and-details-section">
@@ -26,9 +28,11 @@ function ItemAndDetails({
             </div>
 
             <p className="article">{aboutProduct}</p>
-            <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
-              see product
-            </Button>
+            <Link to={productLink}>
+              <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
+                see product
+              </Button>
+            </Link>
           </article>
         </div>
       </div>

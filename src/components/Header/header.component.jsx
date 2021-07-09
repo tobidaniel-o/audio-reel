@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../Navigation/navigation.component";
 import Button from "../Button/button.component";
+import { Link } from "react-router-dom";
 
 import "./header.styles.scss";
 
@@ -17,13 +18,16 @@ function Header() {
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
-          
-          <Button
+
+          <Link
+            to="/headphones-2"
+            className="link"
             style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}
-            type="Submit"
           >
-            see product
-          </Button>
+            <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
+              see product
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

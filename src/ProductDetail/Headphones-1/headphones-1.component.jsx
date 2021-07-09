@@ -31,6 +31,7 @@ function HeadPhones1() {
           aboutProduct="The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound."
           price="$2,999"
           numberOfItem="1"
+          productsLink="/headphones-category"
         />
         <SectionTwo
           firstFeature="Featuring a genuine leather head strap and premium earcups, these
@@ -93,6 +94,9 @@ function HeadPhones1() {
           itemBrandOne="xx99 mark i"
           itemBrandTwo="xx59"
           itemBrandThree="zx9 speaker"
+          productDetailsOne="/headphones-1"
+          productDetailsTwo="/headphones-3"
+          productDetailsThree="/speaker-1"
         />
         <SectionMiniDetails />
         <SectionShared />

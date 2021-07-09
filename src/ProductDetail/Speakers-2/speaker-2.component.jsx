@@ -28,6 +28,7 @@ function Speaker2() {
            aboutProduct="Stream high quality sound wirelessly with minimal to no loss. The ZX7 speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use."
            price="$3,500"
            numberOfItem="1"
+           productsLink="/speakers"
          />
          <SectionTwo
            firstFeature="Reap the advantages of a flat diaphragm tweeter cone. This provides a fast response rate and excellent high frequencies that lower tiered bookshelf speakers cannot provide. The woofers are made from aluminum that produces a unique and clear sound. XLR inputs allow you to connect to a mixer for more advanced usage."
@@ -77,6 +78,9 @@ function Speaker2() {
            itemBrandOne="zx9 speaker"
            itemBrandTwo="xx99 mark i"
            itemBrandThree="xx59"
+           productDetailsOne="/speaker-1"
+           productDetailsTwo="/headphones-1"
+           productDetailsThree="/headphones-3"
          />
          <SectionMiniDetails />
          <SectionShared />

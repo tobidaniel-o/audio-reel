@@ -30,6 +30,7 @@ function HeadPhones2() {
           aboutProduct="As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go."
           price="$1,750"
           numberOfItem="1"
+          productsLink="/headphones-category"
         />
 
         <SectionTwo
@@ -89,6 +90,9 @@ function HeadPhones2() {
           itemBrandOne="xx99 mark i"
           itemBrandTwo="xx59"
           itemBrandThree="zx9 speaker"
+          productDetailsOne="/headphones-2"
+          productDetailsTwo="/headphones-3"
+          productDetailsThree="/speaker-1"
         />
         <SectionMiniDetails />
         <SectionShared />

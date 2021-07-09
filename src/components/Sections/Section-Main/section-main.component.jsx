@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "../../Button/button.component";
+import { Link } from "react-router-dom";
+
 import SectionShared from "./Section-Shared/section-shared.component";
 import "./section-main.styles.scss";
 
@@ -24,20 +26,22 @@ function SectionMain() {
             Upgrade to premium speakers that are phenomenally built to deliver
             truly remarkable sound.
           </p>
-
-          <Button style={{ backgroundColor: "#000000", color: "#ffffff" }}>
-            see product
-          </Button>
+          <Link to="/speaker-1">
+            <Button style={{ backgroundColor: "#000000", color: "#ffffff" }}>
+              see product
+            </Button>
+          </Link>
         </div>
       </section>
       <section className="section-main-two">
         <p>zx7 speaker</p>
-
-        <Button
-          style={{ backgroundColor: "#inherit", border: "1px solid #000000" }}
-        >
-          see product
-        </Button>
+        <Link to="/speaker-2">
+          <Button
+            style={{ backgroundColor: "#inherit", border: "1px solid #000000" }}
+          >
+            see product
+          </Button>
+        </Link>
       </section>
 
       <section className="section-main-three">
@@ -52,13 +56,17 @@ function SectionMain() {
         </div>
 
         <div className="earphones-in-a-case-details">
-          <p>yx1 speaker</p>
-
-          <Button
-            style={{ backgroundColor: "#inherit", border: "1px solid #000000" }}
-          >
-            see product
-          </Button>
+          <p>yx1 earphones</p>
+          <Link to="/earphones-1">
+            <Button
+              style={{
+                backgroundColor: "#inherit",
+                border: "1px solid #000000",
+              }}
+            >
+              see product
+            </Button>
+          </Link>
         </div>
       </section>
 
