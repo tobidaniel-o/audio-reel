@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
-
+import CartIcon from "../CartIcon/cart-icon.component";
+import CartDropdown from "../CartDropdown/cart-dropdown.component";
 import { auth } from "../../firebase/firebase.utils";
 import "./navigation.styles.scss";
 
-function Navigation({ currentUser }) {
+function Navigation({ currentUser, hidden }) {
   return (
     <nav className="navigation">
       <span className="logo">
@@ -45,19 +46,21 @@ function Navigation({ currentUser }) {
             </Link>
           )}
         </li>
-       
       </ul>
-      <img
+      {/* <img
         className="cart"
         src={require("../../assets/shared/desktop/icon-cart.svg").default}
         alt="shopping cart"
-      />
+      /> */}
+      <CartIcon /> {hidden ? null : <CartDropdown />}
+      {/* <CartDropdown /> */}
     </nav>
   );
 }
 
-const mapStateToProps = (state) => ({
-  currentUser: state.user.currentUser,
+const mapStateToProps = ({ user: { currentUser }, cart: { hidden } }) => ({
+  currentUser,
+  hidden,
 });
 
 export default connect(mapStateToProps)(Navigation);
