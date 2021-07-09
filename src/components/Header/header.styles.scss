@@ -4,7 +4,7 @@
   background-size: cover;
   height: 100vh;
   color: #ffffff;
-  
+
   .new-product {
     width: 30vw;
     margin: 10rem 0;
@@ -43,4 +43,9 @@
       width: 100%;
     }
   }
+}
+
+
+.header-btn:hover {
+  background-color: black;
 }

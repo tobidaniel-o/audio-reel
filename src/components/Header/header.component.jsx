@@ -4,6 +4,7 @@ import Button from "../Button/button.component";
 import { Link } from "react-router-dom";
 
 import "./header.styles.scss";
+import "../Button/button.styles.scss";
 
 function Header() {
   return (
@@ -18,13 +19,13 @@ function Header() {
             Experience natural, lifelike audio and exceptional build quality
             made for the passionate music enthusiast.
           </p>
-
-          <Link
-            to="/headphones-2"
-            className="link"
-            style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}
-          >
-            <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
+          <Link to="/headphones-2">
+            <Button
+              style={{
+                backgroundColor: "#d87d4a",
+                color: "#ffffff",
+              }}
+            >
               see product
             </Button>
           </Link>
