@@ -1,6 +1,5 @@
 import React from "react";
 import CategoryHeader from "../CategoryHeader/category-header-component";
-import {Link} from 'react-router-dom'
 import ItemAndDetails from "../ItemAndDetailsComponent/item-and-details-component";
 import SectionShared from "../../components/Sections/Section-Main/Section-Shared/section-shared.component";
 import SectionMiniDetails from "../../components/Sections/Section-Mini-Details/section-mini-details.component";

@@ -47,13 +47,8 @@ function Navigation({ currentUser, hidden }) {
           )}
         </li>
       </ul>
-      {/* <img
-        className="cart"
-        src={require("../../assets/shared/desktop/icon-cart.svg").default}
-        alt="shopping cart"
-      /> */}
+  
       <CartIcon /> {hidden ? null : <CartDropdown />}
-      {/* <CartDropdown /> */}
     </nav>
   );
 }
