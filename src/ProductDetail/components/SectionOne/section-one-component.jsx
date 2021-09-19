@@ -13,7 +13,7 @@ function SectionOne({
   aboutProduct,
   price,
   numberOfItem,
-  productsLink
+  productsLink,
 }) {
   return (
     <>
@@ -38,9 +38,23 @@ function SectionOne({
             <span className="price">{price}</span>
             <div className="add-to-cart-container">
               <div className="numbers-of-item-picked">
-                <span className="decrement">-</span>
+                <span
+                  className="decrement"
+                  onClick={() =>
+                    numberOfItem !== 0
+                      ? console.log(Number(numberOfItem--))
+                      : ""
+                  }
+                >
+                  -
+                </span>
                 <span>{numberOfItem}</span>
-                <span className="increment">+</span>
+                <span
+                  className="increment"
+                  onClick={() => console.log(Number(numberOfItem++))}
+                >
+                  +
+                </span>
               </div>
 
               <Button style={{ backgroundColor: "#d87d4a", color: "#ffffff" }}>
