@@ -1,1 +1,1 @@
-This is a massive e-commerce website (AudioReel.ca) that sells varieties of audio devices. AudioReel.ca is currently in development stage and being built using React, Redux, GraphQL, Context API, Firebase and Stripe. It is hosted on GoDaddy.com
+This is a massive e-commerce website (AudioReel.ca) focused on selling varieties of audio devices. AudioReel.ca is built from ground up by me using React, Redux, GraphQL, Context API, Firebase and Stripe. It's currently in development stage and it's hosted on GoDaddy.com
