@@ -12,7 +12,7 @@ function Header() {
       <div className="wrapper">
         <Navigation />
         <div className="new-product">
-          <h1>new produ</h1>
+          <h1>new product</h1>
           <span>xx99 mark ii</span>
           <span>headphones</span>
           <p>
